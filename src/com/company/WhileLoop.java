@@ -9,11 +9,13 @@ public class WhileLoop {
         int count = 0;
 
         while ( count<10){
-            System.out.println("Hola mundo " + count);
             count++;
+            if(count==6){
+                break; // rompe el flujo
+                //continue; salta el valor
+            }
 
-
-
+            System.out.println("Hola " + count );
         }
         System.out.println("fin");
     }
