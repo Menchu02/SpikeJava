@@ -11,6 +11,11 @@ public class Coche {
      Integer velocidad = 0;
 
      //constructores
+    public Coche(){
+        //con este constructor podemos crear otro objeto de cero, sin obligatoriedad de añadir
+        //ciertos parámetros
+
+    }
     public Coche(String color, String fabricante,String modelo,  Double peso, Double largo){
         this.color= color;
         this.fabricante= fabricante;
@@ -26,6 +31,15 @@ public class Coche {
         this.velocidad += cantidad;
     }
 
-
-
+    @Override
+    public String toString() {
+        return "Coche{" +
+                "color='" + color + '\'' +
+                ", fabricante='" + fabricante + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", peso=" + peso +
+                ", largo=" + largo +
+                ", velocidad=" + velocidad +
+                '}';
+    }
 }
