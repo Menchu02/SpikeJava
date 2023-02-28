@@ -19,6 +19,14 @@ public class CocheElectrico extends Coche {
         this.motorElectrico = motorElectrico;
     }
 
+    //CONSTRUCTOR CON METODO SUPER
+    public  CocheElectrico(String color, String fabricante,String modelo,  Double peso, Double largo,String motorElectrico){
+         //llama a las propiedades que tenía el Coche base
+        super(color,fabricante,modelo,peso,largo);
+        //le añado el atributo extra que tiene el CocheElectrico
+        this.motorElectrico = motorElectrico;
+    }
+
     @Override
     public String toString() {
         return "CocheElectrico{" +

@@ -28,5 +28,10 @@ public class CocheMain {
 
         System.out.println(cocheHibrido);
 
+        //utilizacion del metodo super en su constructor
+        CocheElectrico cocheElectrico2 = new CocheElectrico("azul","Honda","Civic",2334d,4.99,"TXZ");
+
+        System.out.println(cocheElectrico2);
+
     }
 }
