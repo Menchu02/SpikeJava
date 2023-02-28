@@ -25,6 +25,16 @@ public class CocheElectrico extends Coche {
         super(color,fabricante,modelo,peso,largo);
         //le añado el atributo extra que tiene el CocheElectrico
         this.motorElectrico = motorElectrico;
+
+
+
+    }
+
+    @Override
+    public void acelerar(Integer cantidad) {
+         Integer cantidadAjustada= cantidad *2;
+
+        super.acelerar(cantidadAjustada);
     }
 
     @Override

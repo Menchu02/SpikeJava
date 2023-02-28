@@ -24,7 +24,7 @@ public class Coche {
         this.largo= largo;
 
     }
-    //comportamiento
+    //comportamiento método
 
     public void acelerar(Integer cantidad){
         if(cantidad> 0 && cantidad <= 120)
