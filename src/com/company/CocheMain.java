@@ -4,9 +4,9 @@ public class CocheMain {
     //desde aquí vamos a poder crear objetos
     public static void main(String[] args) {
         //CRE0 UN OBJ cocheObj de tipo Coche
-        Coche cocheObj= new Coche();
+        Coche cocheObj= new CocheHibrido();
         //CREO UN OBJ cocheObj2 de tipo coche
-        Coche cocheObj2= new Coche("rojo","honda","civid", 123.33, 5.4);
+        Coche cocheObj2= new CocheElectrico("rojo","honda","civid", 123.33, 5.4,"motor");
                 //ACCEDO A SU PROPIEDAD ACELERAR
                 cocheObj2.acelerar(50);
 
