@@ -1,5 +1,5 @@
 
-package com.company;
+package com.company.tiposdatos;
 
 public class Tipos {
     public static void main(String[] args) {
