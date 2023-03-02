@@ -23,6 +23,8 @@ public class IfElseIf {
         } else if (dia.equals("Jueves")) {
             System.out.println("Hoy es jueves");
 
+        }else{
+            System.out.println("no es un día válido");
         }
     }
 }
