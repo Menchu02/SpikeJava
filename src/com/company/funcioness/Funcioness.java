@@ -28,6 +28,10 @@ public class Funcioness {
         System.out.println( "el resultado es " + resultadoSuma);
         System.out.println( "el resultado es " +resultadoSuma2);
 
+        // 5 CREAR UNA FUNCION QUE RECIBA UN PRECIO Y DEVULVA EL PRECIO CON IVA
+
+        double total = getPriceIva( 23.3  );
+        System.out.println(total);
     }
 
 
@@ -62,6 +66,11 @@ public class Funcioness {
     }
      static int suma(int num1, int num2) {
         return   num1 + num2 ;
+    }
+
+    // 5 CREAR UNA FUNCION QUE RECIBA UN PRECIO Y DEVULVA EL PRECIO CON IVA
+    static double getPriceIva(double precio) {
+        return precio + (precio * 21 / 100) ;
     }
 
 }
